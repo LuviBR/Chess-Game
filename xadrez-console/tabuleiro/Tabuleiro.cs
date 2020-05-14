@@ -1,4 +1,6 @@
-﻿using tabuleiro;
+﻿using System;
+using tabuleiro;
+using xadrez_console.xadrez;
 
 namespace xadrez_console.tabuleiro
 {
@@ -23,6 +25,11 @@ namespace xadrez_console.tabuleiro
 		public Peca peca (Posicao pos)
 		{
 			return pecas[pos.linha, pos.coluna];
+		}
+
+		internal void colocarPeca(Torre torre)
+		{
+			throw new NotImplementedException();
 		}
 
 		public bool existePeca(Posicao pos)
