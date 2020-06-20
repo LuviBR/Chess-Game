@@ -9,6 +9,7 @@ namespace xadrez_console
 {
     class Tela
     {
+
         public static void imprimirPartida(PartidaDeXadrez partida)
         {
             imprimirTabuleiro(partida.tab);

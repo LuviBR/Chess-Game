@@ -20,7 +20,12 @@ namespace xadrez_console.tabuleiro
 		public void incrementarQteMovimentos() {
 			qteMovimentos++;
 		}
-		
+
+		public void decrementarQteMovimentos()
+		{
+			qteMovimentos--;
+		}
+
 		public bool existeMovimentosPossiveis() {
 			bool[,] mat = movimentosPossiveis();
 			for (int i=0; i<tab.linhas; i++) {
