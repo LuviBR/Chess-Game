@@ -154,6 +154,7 @@ namespace xadrez
                     p = tab.retirarPeca(destino);
                     pecas.Remove(p);
                     Peca dama = new Dama(tab, p.cor);
+
                     tab.colocarPeca(dama, destino);
                     pecas.Add(dama);
                 }
