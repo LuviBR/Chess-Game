@@ -1,8 +1,4 @@
-﻿using System;
-using tabuleiro;
-using xadrez;
-using xadrez_console.tabuleiro;
-using xadrez_console.xadrez;
+﻿using xadrez_console.tabuleiro;
 
 namespace tabuleiro
 {
