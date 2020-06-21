@@ -5,7 +5,7 @@ namespace xadrez
 { 
 	class Rei : Peca 
 	{
-		public Rei(Tabuleiro tab, Cor cor) : base(tab, cor) { }
+		public Rei(Tabuleiro tab, Cor cor, PartidaDeXadrez partidaDeXadrez) : base(tab, cor) { }
 
 		public override string ToString()
 		{ 
